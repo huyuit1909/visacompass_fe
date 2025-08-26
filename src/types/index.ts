@@ -59,7 +59,6 @@ export interface ChartData {
     data: number[]
     backgroundColor?: string[]
     borderColor?: string
-    backgroundColor?: string
     label?: string
   }>
 }

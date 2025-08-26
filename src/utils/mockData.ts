@@ -1,4 +1,4 @@
-import { CatalogVisa } from '../types'
+import type { CatalogVisa } from '../types'
 
 export const visaTypes = [
   {

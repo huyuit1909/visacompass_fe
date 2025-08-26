@@ -1,6 +1,6 @@
 import { useState } from 'react'
+import type { UploadedFile } from '../types'
 import { useDarkMode } from '../hooks/useDarkMode'
-import { UploadedFile } from '../types'
 
 export function DocumentCheck() {
   const { isDarkMode } = useDarkMode()

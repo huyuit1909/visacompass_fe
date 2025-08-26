@@ -1,6 +1,6 @@
 import { useState } from 'react'
+import type { TimelineMilestone } from '../types'
 import { useDarkMode } from '../hooks/useDarkMode'
-import { TimelineMilestone } from '../types'
 
 export function Timeline() {
   const { isDarkMode } = useDarkMode()

@@ -1,7 +1,6 @@
 import { useState } from 'react'
+import type { VisaProfile, VisaRecommendation } from '../types'
 import { useDarkMode } from '../hooks/useDarkMode'
-import { VisaProfile, VisaRecommendation } from '../types'
-import { visaTypes } from '../utils/mockData'
 
 export function AIRecommender() {
   const { isDarkMode } = useDarkMode()

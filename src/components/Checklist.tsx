@@ -1,6 +1,6 @@
 import { useState } from 'react'
+import type { ChecklistItem } from '../types'
 import { useDarkMode } from '../hooks/useDarkMode'
-import { ChecklistItem } from '../types'
 
 export function Checklist() {
   const { isDarkMode } = useDarkMode()

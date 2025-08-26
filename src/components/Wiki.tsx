@@ -1,6 +1,6 @@
 import { useState } from 'react'
+import type { CatalogVisa } from '../types'
 import { useDarkMode } from '../hooks/useDarkMode'
-import { CatalogVisa } from '../types'
 import { catalog } from '../utils/mockData'
 
 export function Wiki() {
